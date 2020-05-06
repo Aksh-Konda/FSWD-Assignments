@@ -4,6 +4,7 @@
   "main": "aboutus.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "lite": "lite-server"
   },
@@ -11,10 +12,11 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.14.1"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "~4.0.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "~3.4.1",
